@@ -46,8 +46,15 @@ export default function Home({ body }: any) {
           <meta name="theme-color" content="#1DB954" />
           </Head>
           <div className="w-[100vw] h-[100vh] flex items-center justify-center text-white">
-              Not listening to anything right now :(
+             <div className="grid grid-rows-1 gap-0">
+                <p className="text-center ">Not Listening to anything right now :)  Join Discord 👇</p>
+                <a className="mt-4 drop-shadow-md hover:drop-shadow-xl" href="https://discord.gg/EHthxHRUmr">
+                    <img src="https://invidget.switchblade.xyz/EHthxHRUmr" width="400" height="100" />
+                </a>
+             </div>
+                
           </div>
+          
           <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
                 <p><a className="hoverM" href="https://github.com/hellofaizan/m">Made by Faizan</a> | Desgin inspired  by <a className="hoverS" href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">cnrad.dev</a>
                 </p>
