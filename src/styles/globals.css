@@ -23,3 +23,9 @@ a {
 * {
     box-sizing: border-box;
 }
+.hoverM:hover {
+    color: rgb(255, 0, 0);
+}
+.hoverS:hover {
+    color: rgb(0, 247, 255);
+}

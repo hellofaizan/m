@@ -40,9 +40,20 @@ export default function Home({ body }: any) {
 
   if (data.spotify === null)
       return (
+        <>
+        <Head>
+          <title>Not Listening to anything right now.</title>
+          <link rel="shortcut icon" href="/faizan.png" />
+          <meta name="theme-color" content="#1DB954" />
+          </Head>
           <div className="w-[100vw] h-[100vh] flex items-center justify-center text-white">
               Not listening to anything right now :(
           </div>
+          <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
+                <p><a className="hoverM" href="https://github.com/hellofaizan/m">Made by Faizan</a> | Desgin inspired  by <a className="hoverS" href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">s.cnrad.dev</a>
+                </p>
+            </div>
+        </>
       );
 
   function fromMS(ms: number) {
@@ -57,6 +68,7 @@ export default function Home({ body }: any) {
                 <title>
                     Listening to: {data.spotify.song} by {data.spotify.artist}{" "}
                 </title>
+                <link rel="shortcut icon" href="/faizan.png" />
                 <meta name="theme-color" content="#1DB954" />
 
                 <meta name="og:title" content={`s.cnrad.dev`} />
@@ -115,6 +127,13 @@ export default function Home({ body }: any) {
                     </div>
                 </div>
             </div>
+
+            <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
+                <a href="" target="_blank" rel="noreferrer">
+                    Made by Faizan | Desgin inspired  by <a href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">s.cnrad.dev</a>
+                </a>
+            </div>
+
     </>
   )
 }
