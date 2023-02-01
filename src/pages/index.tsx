@@ -129,7 +129,7 @@ export default function Home({ body }: any) {
 
             <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
                 <a href="" target="_blank" rel="noreferrer">
-                    Made by Faizan | Desgin inspired  by <a href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">s.cnrad.dev</a>
+                    Made by Faizan | Desgin inspired  by <a href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">cnrad.dev</a>
                 </a>
             </div>
 
