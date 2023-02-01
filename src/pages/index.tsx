@@ -49,7 +49,7 @@ export default function Home({ body }: any) {
               Not listening to anything right now :(
           </div>
           <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
-                <p><a className="hoverM" href="https://github.com/hellofaizan/m">Made by Faizan</a> | Desgin inspired  by <a className="hoverS" href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">s.cnrad.dev</a>
+                <p><a className="hoverM" href="https://github.com/hellofaizan/m">Made by Faizan</a> | Desgin inspired  by <a className="hoverS" href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">cnrad.dev</a>
                 </p>
             </div>
         </>
