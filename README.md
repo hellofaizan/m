@@ -6,7 +6,7 @@
 
 ## Description
 Design inspired by [this](https://github.com/cnrad/s) project.
-Build using [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
+Build using [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/). And used [lenyard](https://lanyard-profile-readme.vercel.app/) for spotify api.
 
 ## Clone It
 Clone the repository using the following command:
