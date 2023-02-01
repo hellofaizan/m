@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import { Inter } from '@next/font/google'
@@ -71,7 +70,7 @@ export default function Home({ body }: any) {
                 <link rel="shortcut icon" href="/faizan.png" />
                 <meta name="theme-color" content="#1DB954" />
 
-                <meta name="og:title" content={`s.cnrad.dev`} />
+                <meta name="og:title" content={`msop.vercel.app`} />
                 <meta
                     name="og:description"
                     content={`HelloFaizan is currently listening to ${
