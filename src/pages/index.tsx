@@ -46,8 +46,8 @@ export default function Home({ body }: any) {
           <meta name="theme-color" content="#1DB954" />
           </Head>
           <div className="w-[100vw] h-[100vh] flex items-center justify-center text-white">
-             <div className="grid grid-rows-1 gap-0">
-                <p className="text-center ">Not Listening to anything right now :)  Join Discord 👇</p>
+             <div className="grid grid-rows-1 gap-0 divide-y divide-gray-600 hover:divide-y-0">
+                <p className="text-center">Not Listening to anything right now :)  Join Discord 👇</p>
                 <a className="mt-4 drop-shadow-md hover:drop-shadow-xl" href="https://discord.gg/EHthxHRUmr">
                     <img src="https://invidget.switchblade.xyz/EHthxHRUmr" width="400" height="100" />
                 </a>
