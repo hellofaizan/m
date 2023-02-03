@@ -56,7 +56,7 @@ export default function Home({ body }: any) {
           </div>
           
           <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
-                <p><a className="hoverM" href="https://github.com/hellofaizan/m">Made by Faizan</a> | Desgin inspired  by <a className="hoverS" href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">cnrad.dev</a>
+                <p><a className="hoverM" href="https://github.com/hellofaizan/m">Made by Faizan</a> | Inspired  by <a className="hoverS" href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">cnrad.dev</a>
                 </p>
             </div>
         </>
@@ -135,9 +135,7 @@ export default function Home({ body }: any) {
             </div>
 
             <div className="absolute bottom-0 right-0 mb-4 mr-4 text-white text-sm font-karla">
-                <a href="" target="_blank" rel="noreferrer">
-                    Made by Faizan | Desgin inspired  by <a href="https://github.com/cnrad/s" target="_blank" rel="noreferrer">cnrad.dev</a>
-                </a>
+                <p>Made by Faizan | Inspired  by cnrad.dev</p>
             </div>
 
     </>
